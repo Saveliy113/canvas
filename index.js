@@ -31,4 +31,13 @@ const xAxis = canvasPlotWidth / 2;
 const yAxis = canvasPlotHeight / 2;
 
 ctx.beginPath();
-ctx.strokeStyle
+ctx.strokeStyle = '#000000';
+
+ctx.moveTo(xAxis, 0);
+ctx.lineTo(xAxis, canvasPlotHeight);
+
+ctx.moveTo(0, yAxis);
+ctx.lineTo(canvasPlotWidth, yAxis);
+
+ctx.stroke();
+ctx.closePath();
