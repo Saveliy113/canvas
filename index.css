@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+}
+
+#canvas_plot {
+  margin: auto;
+  background: #ead9ce;
+}
